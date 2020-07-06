@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("sensitivity2x2xk", "mh", "mhLS")
+importFrom("sensitivitymult", "senm", "senmCI", "separable1v")
+importFrom("sensitivitymv", "truncatedP")
+importFrom("senstrat", "senstrat", "hodgeslehmann")
+importFrom("DOS2", "senU", "senWilcox","crosscut","crosscutplot")
+importFrom("MASS", "rlm")
