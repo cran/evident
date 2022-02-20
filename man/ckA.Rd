@@ -3,6 +3,7 @@
 \docType{data}
 \concept{Evidence factor}
 \concept{Matching}
+\concept{Replication and Evidence Factors in Observational Studies}
 \title{
 Matching the Minimum Wage Data
 }
@@ -37,9 +38,16 @@ wage increase.  The low/high wage cut is at 4.50 dollars per hour.  The method
 illustrated is from Karmakar et al. (2019) as implemented in Karmakar's
 approxmatch package.
 
-To use the approxmatch package, you must first install and load the optmatch
-package, which an academic license.  The optmatch packages uses the relax
-code of Bertsekas and Tseng (1988).
+If you would like to create the match in the ck data using the ckA data, then you must install the optmach package, accept its academic license, and install the approxmatch package.  The optmatch packages uses the relax
+code of Bertsekas and Tseng (1988).  The following code will then recreate the matched data set.  As the matched data is available in ck, there is no need to run this code, unless you are interested in how to use the approxmatch package.
+
+dist<-approxmatch::multigrp_dist_struc(ckA,as.character(ckA$grp),
+                          list(mahal=c("chain1","chain2","chain3",
+                                       "HRSOPEN")),wgts=1)
+mtch<-approxmatch::tripletmatching(dist,as.character(ckA$grp),
+                      indexgroup="PA",ckA,"CHAIN",design=c(1,1,1))
+
+Used as an example in Rosenbaum (2021).
 
 Using a different matched sample, an analysis of two evidence factors in Card and Krueger's study is given in Rosenbaum (2010).
 }
@@ -55,23 +63,13 @@ Karmakar, B., Small, D. S. and Rosenbaum, P. R. (2019)
 <doi:10.1080/10618600.2019.1584900> "Using approximation algorithms to build evidence factors and related designs for observational studies".  Journal of Computational and Graphical Statistics, 28, 698-709.
 
 Rosenbaum, P. R. (2010). <doi:10.1093/biomet/asq019> "Evidence factors in observational studies". Biometrika, 97(2), 333-345.
+
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 }
 
 \examples{
 data(ckA)
 table(ckA$CHAIN)
 table(ckA$grp)
-
-## Not run:
-#  To run this example, you must install and load
-#  the optmatch package and accepts its academic license.
-
-dist<-approxmatch::multigrp_dist_struc(ckA,as.character(ckA$grp),
-                          list(mahal=c("chain1","chain2","chain3",
-                                       "HRSOPEN")),wgts=1)
-mtch<-approxmatch::tripletmatching(dist,as.character(ckA$grp),
-                      indexgroup="PA",ckA,"CHAIN",design=c(1,1,1))
-## End(Not run)
-
 }
 \keyword{datasets}

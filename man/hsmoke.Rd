@@ -9,6 +9,7 @@
 \concept{Strata}
 \concept{Covariance adjustment}
 \concept{Causal inference}
+\concept{Replication and Evidence Factors in Observational Studies}
 \title{
 Smoking and Homocysteine
 }
@@ -47,6 +48,8 @@ defined by covariates, with and without additional adjustment for
 continuous versions of these covariates using robust covariance
 adjustment; see Rosenbaum (2002).
 
+Used as an example in Rosenbaum (2021).
+
 Other analyses of smoking and homocysteine are in Karmakar et al. (2020) and Pimentel et al. (2015).
 }
 \source{
@@ -65,6 +68,8 @@ Pimentel, S. D., Small, D. S. and Rosenbaum, P. R. (2016)
 Rosenbaum, P. R. (2002). <doi:10.1214/ss/1042727942> "Covariance adjustment in randomized experiments and observational studies". Statistical Science, 17(3), 286-327.
 
 Rosenbaum, P. R. (2018) <doi:10.1214/18-AOAS1153> "Sensitivity analysis for stratified comparisons in an observational study of the effect of smoking on homocysteine levels".  Annals of Applied Statistics 12(4):2312–2334.
+
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 }
 \examples{
 data(hsmoke)

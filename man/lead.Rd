@@ -5,6 +5,7 @@
 \concept{Sensitivity analysis}
 \concept{Matched pairs}
 \concept{Causal inference}
+\concept{Replication and Evidence Factors in Observational Studies}
 \docType{data}
 \title{
 Lead in Children
@@ -28,7 +29,8 @@ Data from Morton et al. (1982) concerning exposed children whose fathers worked 
 The data were assembled from two published tables in Morton et al. (1982).  One matched pair with no control is omitted here.  Small ambiguities in assembling a complete data set from two tables were resolved by a throw of the dice; however, it is a reasonable example to illustrate statistical methods.  One table described the exposed-versus-control matched pairs, and these are as in the paper.  The second table described the exposed individuals, their level of exposure and their hygiene, and again these are as in the paper.  The two tables were linked using the blood lead level of the exposed children, and a couple of ties in these lead levels made for small ambiguities about which control responses belong with which hygienes and exposure levels for the exposed children.  See, for instance, rows 18 and 22, where both exposed children have blood lead level 34.
 }
 \source{
-Data are from Morton et al. (1982).  They were used as an example in Rosenbaum (1991, 2002, 2011, 2017).
+Data are from Morton et al. (1982).  They were used as an example in Rosenbaum (1991, 2002, 2011, 2017, 2021).
+
 }
 \references{
 Morton, D. E., Saah, A. J., Silberg, S. L., Owens, W. L., Roberts, M. A., & Saah, M. D. (1982) <doi:10.1093/oxfordjournals.aje.a113336>  "Lead absorption in children of employees in a lead-related industry". American Journal of Epidemiology, 115(4), 549-555.
@@ -43,6 +45,8 @@ Rosenbaum, P. R. (2011) <doi:10.1111/j.1541-0420.2010.01535.x> "A new
 U-statistic with superior design sensitivity in matched observational studies". Biometrics, 67(3), 1017-1027.
 
 Rosenbaum, P. R. (2017) <https://www.hup.harvard.edu/catalog.php?isbn=9780674975576> "Observation and Experiment: An Introduction to Causal Inference".  Cambridge, MA: Harvard University Press. Chapters 7 and 9.
+
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 }
 \examples{
 data(lead)

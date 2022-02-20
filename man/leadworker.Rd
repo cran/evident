@@ -1,13 +1,15 @@
 \name{leadworker}
 \alias{leadworker}
 \docType{data}
+\concept{Replication and Evidence Factors in Observational Studies}
 \title{
 DNA Damage in Lead Workers
 }
 \description{
 Data from Table 1 of Wu et al. (2002) concerning DNA damage among lead workers
 compared to controls.  In this example, the data have been matched
-for age and smoking, making 11 matched pairs.
+for age and smoking, making 11 matched pairs.  Used as an example
+in Rosenbaum (2021).
 }
 \usage{data("leadworker")}
 \format{
@@ -28,6 +30,10 @@ The outcome, a measure of DNA damage is dpc.
 \source{
 Fang-Yang Wu, Pao-Wen Chang, Chin-Ching Wu and Hsien-Wen Kuo (2002).
 "Correlations of Blood Lead with DNA-Protein Cross-Links and Sister Chromatid Exchanges in Lead Workers". Cancer Epidemiology, Biomarkers and Prevtion. March 1 2002 11 (3) 287-290.
+}
+
+\references{
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 }
 
 \examples{

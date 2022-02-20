@@ -6,6 +6,7 @@
 \concept{Sensitivity analysis}
 \concept{Matched pairs}
 \concept{Causal inference}
+\concept{Replication and Evidence Factors in Observational Studies}
 \title{
 Chromosome Damage from Exposure to Benzene
 }
@@ -25,12 +26,14 @@ Examines chromosome aberrations among shoe workers exposed to benzene and unexpo
 }
 
 \source{
-The data are frome Tunca, B.T. and Egeli, U. (1996).  Paz-y-Mino (2002) discuss whether to include gaps in chromosome aberrations. Used as an example in Rosenbaum (2001).
+The data are frome Tunca, B.T. and Egeli, U. (1996).  Paz-y-Mino (2002) discuss whether to include gaps in chromosome aberrations. Used as an example in Rosenbaum (2001) and Rosenbaum (2021).
 }
 \references{
 Paz-y-Mino, C., Davalos, M.V., Sanchez, M.E., Arevalo, M. and Leone, P.E. (2002). <doi:10.1016/S1383-5718(02)00021-9> "Should gaps be included in chromosomal aberration analysis? Evidence based on the comet assay". Mutation Research: Genetic Toxicology and Environmental Mutagenesis, 516, 57-61.
 
 Rosenbaum, P.R. (2001). <doi:10.1093/biomet/88.1.219> "Effects attributable to treatment: Inference in experiments and observational studies with a discrete pivot". Biometrika, 88, 219-231.
+
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 
 Tunca, B.T., Egeli, U. (1996). <doi:10.1289/ehp.961041313> "Cytogenetic findings on shoe workers exposed long-term to benzene".  Environmental Health Perspectives, 104, 1313-1317.
 }

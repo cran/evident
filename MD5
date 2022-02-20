@@ -1,4 +1,4 @@
-160f9613c0a553005e24d277ab31b92f *DESCRIPTION
+a896f3e8996ce9ae51bc97bf48b32348 *DESCRIPTION
 2c98cd5d0a54eb46db372e5b257a319a *NAMESPACE
 1baf921052767485b62f2f11f669c8f6 *data/antineoplastic.rda
 8c7d208cd27a8b7860240e8ace742b66 *data/benzene.rda
@@ -9,12 +9,12 @@ c9cd6b97b993f44aa39932d71df6c14c *data/ck.rda
 52a749296549df3bca1334508a844bcf *data/leadworker.rda
 f22217cfe37c420d0f31e067857f98ed *data/periodontal.rda
 05caede863c8db22842717729ec45ba5 *data/tannery.rda
-1684d9d62ce5d38c0574199e0581b045 *man/antineoplastic.Rd
-b270f1da54277585ce4c859ba2e81401 *man/benzene.Rd
-fac79f52227aa3e58fdcc247c5b4143e *man/ck.Rd
-6b747f275f5310de9500f6134c65627d *man/ckA.Rd
-600fb3c6b0a3a310f09cfcf61f38bdfa *man/hsmoke.Rd
-d7ed5d098c8c204573c04e621111cfbe *man/lead.Rd
-b1a0fde6bbeaed651b6e4f94472b982e *man/leadworker.Rd
-90dd7b28d7de3010e7f631b87a93a3ba *man/periodontal.Rd
-cb4b0685512b64ea5ace3be3f3d10eda *man/tannery.Rd
+20ae2801e674e57617e89adfc67cc742 *man/antineoplastic.Rd
+ca308868e5945a9cedac59fb2ee03d98 *man/benzene.Rd
+0f491eba63b31adbac6862dc1fefc8f5 *man/ck.Rd
+6f5eeb353459526eb5838365c4f4fee2 *man/ckA.Rd
+0009dc9937b874c8874d0c289990ab4e *man/hsmoke.Rd
+86e1c69cd8ad5a18fccde42b36c4ba24 *man/lead.Rd
+d63808f1f19fd0eb9ff05296fd815e81 *man/leadworker.Rd
+a000b726c42ef95097ac9b390c24d2bd *man/periodontal.Rd
+7e063f430e01b57afb912911372f8daa *man/tannery.Rd

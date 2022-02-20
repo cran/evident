@@ -2,12 +2,13 @@
 \alias{periodontal}
 \docType{data}
 \concept{Evidence factors}
+\concept{Replication and Evidence Factors in Observational Studies}
 \title{
 Smoking and Periodontal Disease
 }
 \description{
 Data from NHANES 2011-2012 containing 441 matched pairs of a daily cigarette smoker and a never smoker, recording the extent of periodontal disease.
-See Rosenbaum (2017).
+See Rosenbaum (2017, 2021).
 }
 \usage{data("periodontal")}
 \format{
@@ -46,6 +47,8 @@ Rosenbaum, P. R. (2015) <https://obsstudies.org/two-r-packages-for-sensitivity-a
 
 Rosenbaum, P. R. (2017) <doi:10.1214/17-STS621> "The general structure of evidence factors in observational studies".
 Statistical Science 32, 514-530.
+
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 
 Tomar, S. L. and Asma, S. (2000) <doi:10.1902/jop.2000.71.5.743>  "Smoking attributable periodontitis in the US: Findings
 from NHANES III".  J Periodont 71, 743-751.

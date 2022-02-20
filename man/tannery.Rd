@@ -5,6 +5,7 @@
 \concept{Observational studies}
 \concept{Observational study}
 \concept{Causal inference}
+\concept{Replication and Evidence Factors in Observational Studies}
 \title{
 DNA Damage Among Tannery Workers
 }
@@ -34,7 +35,7 @@ lower.  Group c consists of 30 controls who did not work at the tannery.  This e
 The comet assay is described by Collins (2004).  It is thought to measure DNA
 strand breaks, producing an image that resembles the tail of a comet, a
 larger, longer tail suggesting more extensive strand breaks.  This example
-was discussed in Rosenbaum (2011).
+was discussed in Rosenbaum (2011, 2021).
 }
 \source{
 Data from Zhang et al. (2008, Table 2).
@@ -49,6 +50,9 @@ Journal of the American Statistical Association, 106, 285-293.
 Rosenbaum, P. R. (2013)<doi:10.1111/j.1541-0420.2012.01821.x> "Impact of multiple matched controls on design sensitivity in observational studies". Biometrics 69 118-127. (Introduces inner trimming.)
 
 Rosenbaum, P. R. (2015) <https://obsstudies.org/two-r-packages-for-sensitivity-analysis-in-observational-studies/> "Two R packages for sensitivity analysis in observational studies". Observational Studies, 1(1), 1-17.
+
+
+Rosenbaum, P. R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 
 Zhang, M., Chen, Z., Chen, Q., Zou, H., Lou, J. He, J. (2008)
 <doi:10.1016/j.mrgentox.2008.04.011> "Investigating DNA damage in

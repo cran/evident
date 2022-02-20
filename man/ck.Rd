@@ -5,6 +5,7 @@
 \concept{Causal inference}
 \concept{Observational study}
 \concept{Sensitivity analysis}
+\concept{Replication and Evidence Factors in Observational Studies}
 \title{
 Minimum Wages and Employment
 }
@@ -31,6 +32,8 @@ There are three groups matched for HRSOPEN and indicators of the CHAIN.   PA are
 
 The match was built using the algorithm of Karmakar et al. (2019) and the approximatch package in R.
 
+Used as an example in Rosenbaum (2021).
+
 Using a different matched sample, an analysis of two evidence factors in Card and Krueger's study is given in Rosenbaum (2010).
 }
 \source{
@@ -42,7 +45,12 @@ Card, D. and Krueger, A. B. (1994) <doi:10.1080/10618600.2019.1584900> "Minimum 
 Karmakar, B., Small, D. S. and Rosenbaum, P. R. (2019)
 <doi:10.1080/10618600.2019.1584900> "Using approximation algorithms to build evidence factors and related designs for observational studies".  Journal of Computational and Graphical Statistics, 28, 698-709.
 
+Karmakar, B., Small, D. S. and Rosenbaum, P. R. (2021)
+<doi:10.1080/01621459.2020.1745811> Reinforced designs: Multiple instruments plus control groups as evidence factors in an observational study of the effectiveness of Catholic schools. Journal of the American Statistical Association, 116, 82-92.
+
 Rosenbaum, P. R. (2010). <doi:10.1093/biomet/asq019> "Evidence factors in observational studies". Biometrika, 97(2), 333-345.
+
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 }
 \examples{
 data(ck)

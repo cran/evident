@@ -1,6 +1,7 @@
 \name{antineoplastic}
 \alias{antineoplastic}
 \docType{data}
+\concept{Replication and Evidence Factors in Observational Studies}
 \concept{Evidence factors}
 \concept{Causal inference}
 \concept{Observational study}
@@ -42,6 +43,8 @@ hood with vertical air flow.
 }
 \source{
 From Tables I and III of Kopjar and Garaj-Vrhovac (2001).
+
+Used as an example in Rosenbaum (2021).
 }
 \references{
 Kopjar, N. and Garaj-Vrhovac, V. (2001)
@@ -49,6 +52,8 @@ Kopjar, N. and Garaj-Vrhovac, V. (2001)
 comet assay in human biomonitoring for genotoxicity: a study
 on Croation medical personnel handling antineoplastic drugs".
 Mutagenesis, 16, 71-78.
+
+Rosenbaum, Paul R. (2021) <doi:10.1201/9781003039648> Replication and Evidence Factors in Observational Studies.  Chapman and Hall/CRC.
 }
 \examples{
 data(antineoplastic)
